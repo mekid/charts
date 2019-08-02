@@ -37,26 +37,26 @@ image:
 ## User of the application
 ## ref: https://github.com/bitnami/bitnami-docker-odoo#configuration
 ##
-odooUsername: user@example.com
+odooUsername: admin@lessy.sarl
 
 ## Admin email
 ## ref: https://github.com/bitnami/bitnami-docker-odoo#configuration
 ##
-odooEmail: user@example.com
+odooEmail: admin@lessy.sarl
 
 ## Application password
 ## Defaults to a random 10-character alphanumeric string if not set
 ## ref: https://github.com/bitnami/bitnami-docker-odoo#configuration
 ##
-# odooPassword:
+odooPassword: adminLessy.03
 
 ## SMTP mail delivery configuration
 ## ref: https://github.com/bitnami/bitnami-docker-odoo/#smtp-configuration
-# smtpHost:
-# smtpPort:
-# smtpUser:
-# smtpPassword:
-# smtpProtocol:
+# smtpHost: palmier.o2switch.net
+# smtpPort: 465
+# smtpUser: admin@lessy.sarl
+# smtpPassword: adminLessy.03
+# smtpProtocol: TLS 
 
 externalDatabase:
 ## All of these values are only used when postgresql.enabled is set to false
